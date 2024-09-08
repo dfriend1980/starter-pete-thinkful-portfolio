@@ -19,12 +19,16 @@ h3 {
 /* Header */
 header {
   text-align: center;
+  justify-content: center;
 }
 
+ul {
+  text-align: left;
+}
 /* Containers */
 div {
   background-color: #eae2b7;
-  margin: auto;
+  margin: 0 auto;
   width: 600px;
 }
 
@@ -35,13 +39,28 @@ article {
 article div {
   text-align: center;
   width: 100%;
+  padding: 10px
 }
 
+.container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+}
+
+ .group{
+        display: flex;
+        flex: 1;
+        margin: 0 auto;
+        flex-direction: column;
+        justify-content: space-evenly; 
+}
 /* Paragraphs */
 p {
   line-height: 1.5;
+  
 }
-
 /* Links */
 a:link {
   color: #d62828;
@@ -53,6 +72,7 @@ a:hover {
 
 nav a {
   padding-left: 20px;
+  
 }
 
 /* Images */
@@ -70,6 +90,7 @@ img {
 /* Footer */
 footer {
   text-align: center;
+  justify-content: center;
 }
 
 /* Other page elements */
